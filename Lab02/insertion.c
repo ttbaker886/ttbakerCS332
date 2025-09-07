@@ -39,18 +39,18 @@ int main() {
 
     }
 
-    int arr[n]; // Step 2: create array of size n
+    int arr[n]; // create array of size n
 
-    // Step 3: Read array elements from user
+    // Read array elements from user
     printf("Enter %d integers:\n", n);
     for (i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
-    //Step 4: Call insertion sort
+    // Call insertion sort
     insertionSort(arr, n);
 
-    //Step 5: Print sorted array
+    // Print sorted array
     printf("Sorted array: \n");
     for (i = 0; i < n; i++) {
         printf("%d ", arr[i]);
