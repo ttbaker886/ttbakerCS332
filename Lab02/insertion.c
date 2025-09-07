@@ -1,6 +1,11 @@
-/*CS332 Lab 2 - Insertion
-Compile: gcc insertion.c -o insertion
-Run : ./insertion 
+/* 
+CS332 Lab 2 - Insertion Sort
+
+Compile (if inside Lab02 folder): gcc insertion.c -o insertion
+Run: ./insertion
+
+Compile (if at repo root): gcc Lab02/insertion.c -o Lab02/insertion
+Run: ./Lab02/insertion
 */
 
 #include <stdio.h>
